@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_search">
+
+    <fragment
+        android:id="@+id/navigation_search"
+        android:name="com.sara.sara_weather.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_recent"
+        android:name="com.sara.sara_weather.ui.recent.RecentSearchFragment"
+        tools:layout="@layout/fragment_recent" />
+
+    <fragment
+        android:id="@+id/navigation_countries"
+        android:name="com.sara.sara_weather.ui.countries.CountriesFragment"
+        tools:layout="@layout/fragment_countries" />
+
+</navigation>

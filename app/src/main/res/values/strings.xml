@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">My Eh Weather</string>
+    <string name="title_search">Search</string>
+    <string name="title_map">Map</string>
+    <string name="title_recent">Recent</string>
+    <string name="title_countries">Countries</string>
+    <string name="search_btn">Search</string>
+    <string name="search_time">Search Time: </string>
+    <string name="title_lat">Lat:</string>
+    <string name="title_lon">Lon:</string>
+    <string name="hint_lat">Input lat</string>
+    <string name="hint_lon">Input lon</string>
+    <string name="hint_city">Input city name</string>
+    <string name="hint_zip">Input zip code</string>
+    <string name="weather_hum">Humidity:</string>
+    <string name="weather_temp">Temperature:</string>
+    <string name="weather_temp_min">Temp Min:</string>
+    <string name="weather_temp_max">Temp Max:</string>
+
+    <string name="eh_weather">My Eh Weather</string>
+    <string name="aussis_weather">My Aussie Weather</string>
+
+    <string-array name="search_type">
+        <item>City</item>
+        <item>ZIP</item>
+        <item>GPS</item>
+    </string-array>
+
+    <!--FOR PERFERENCE-->
+    <string name="selected_type">selected_type</string>
+    <string name="req_item">req_item</string>
+    <string name="req_item_2">req_item_2</string>
+    <string name="lang">lang</string>
+</resources>
